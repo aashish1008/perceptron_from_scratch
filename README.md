@@ -28,6 +28,8 @@ The Perceptron is an algorithm for supervised learning of binary classifiers. It
      {y_predicted} = g(f(x)) = g(w^T x + b)
 
   2. Apply the update rule:
+ 
+     
      Delta w =  learning_rate * (y_i - {y_predicted}_i) * x_i
 
      Delta b = learning_rate * (y_i - {y_predicted}_i)
