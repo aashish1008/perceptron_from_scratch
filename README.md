@@ -24,20 +24,17 @@ The Perceptron is an algorithm for supervised learning of binary classifiers. It
 - Initialize weights
 - For each sample:
   1. Calculate the predicted output:
-     \[
-     \hat{y} = g(f(x)) = g(w^T x + b)
-     \]
+
+     {y_predicted} = g(f(x)) = g(w^T x + b)
+
   2. Apply the update rule:
-     \[
-     \Delta w = \alpha \cdot (y_i - \hat{y}_i) \cdot x_i
-     \]
-     \[
-     \Delta b = \alpha \cdot (y_i - \hat{y}_i)
-     \]
+     Delta w =  learning_rate * (y_i - {y_predicted}_i) * x_i
+
+     Delta b = learning_rate * (y_i - {y_predicted}_i)
+ 
 
 ### Prediction:
 - Calculate the predicted output:
-  \[
-  \hat{y} = g(f(x)) = g(w^T x + b)
-  \]
+  {y_predicted} = g(f(x)) = g(w^T x + b)
+
 
